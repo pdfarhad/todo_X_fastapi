@@ -1,3 +1,5 @@
-from fastapi import Fastapi
+from fastapi import FastAPI
 
-server = Fastapi()
+server = FastAPI()
+
+from todo import api
